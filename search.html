@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="./index.css"/>
+    <script src="./main.js"></script>
+
+    <title>Door Store</title>
+  </head>
+  <body>
+
+
+    <div class="container-fluid m-0 p-0">
+        <nav id="stickyNavbar" class="fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                        Bootstrap
+                      </a>                 
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                  </button>
+                  
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Введите название" aria-label="Search">
+                      <button class="btn btn-outline-primary d-flex" type="submit">
+                          Найти
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mt-1 ms-2 bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </button>
+                    </form>
+                  </div>
+                </div>
+            </nav>
+        </nav>
+        <content>
+            <div class="container col-12 col-md-12 p-toggle mt-5" id="content">
+
+                <!--slider-->
+                <section>
+                <div class="position-relative" id="shareSlider">
+                    <div id="carouselExampleCaptions" class="h-100 carousel carousel-dark slide" data-bs-interval="4000" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner h-100 rounded">
+                          <div class="carousel-item active h-100">
+                            <img src="http://doorsent.ru/netcat_files/66/96/GARDA_3K_3D10.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white">
+                              <h5>Метка первого слайда</h5>
+                              <p>Некоторый репрезентативный заполнитель для первого слайда.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item h-100">
+                            <img src="http://doorinterior.ru/wp-content/uploads/2019/10/mine.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white">
+                              <h5>Метка второго слайда</h5>
+                              <p>Некоторый репрезентативный заполнитель для второго слайда.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item h-100">
+                            <img src="https://lotexspb.ru/wp-content/uploads/2017/07/news.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white">
+                              <h5>Метка третьего слайда</h5>
+                              <p>Некоторый репрезентативный заполнитель для третьего слайда.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Предыдущий</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Следующий</span>
+                        </button>
+                    </div>
+                </div>
+                </section>
+                <!--===-->
+
+                <!--catalogFixedMenu-->
+                <section>
+                    <div class="col-md-2 bg-white catalog-d-toggle rounded p-0 m-0 position-fixed flex-column" id="catalogMenu">
+                        <div class="">
+                            <div class="p-3">
+                                <h4><mark>Каталог </mark></h4>
+                                <ul class="p-2 m-0">
+                                    <li class="d-flex"><h5><a href="#">{type.title} 1</a></h5></li>
+                                    <li class="d-flex"><h5><a href="#">{type.title} 1</a></h5></li>
+                                    <li class="d-flex"><h5><a href="#">{type.title} 1</a></h5></li>
+                                    <li class="d-flex"><h5><a href="#">{type.title} 1</a></h5></li>
+                                    <li class="d-flex"><h5><a href="#">{type.title} 11</a></h5></li>
+                                    <li class="d-flex"><h5><a href="#">{type.title} 111</a></h5></li>
+                                    <li class="d-flex"><h5><a href="#">{type.title} 11111</a></h5></li>
+                                    <li class="d-flex"><h5><a href="#">{type.title} 111111111</a></h5></li>
+                                </ul>
+                            </div>
+                            <div class="p-3">
+                                <h4><mark>Адрес</mark></h4>
+                                <p class="p-1">Пример какого-то адреса 7219378</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+                <!--===-->
+                
+                <div class="col-12 col-md-10 toggle-offset-2 offset-2 position-relative bg-white p-toggle">                    
+                    <!--products-->
+                    <section>
+                        <div class="col-12 p-0 pe-5 pt-4" id="productGrid">
+                            <!--changin-->
+                            <h4 class="ps-1 pt-2">Результаты по поиску: <mark class="rounded ps-2">gibson</mark></h4>
+                            <div class="ms-5 ps-1 pt-2 d-flex row">
+
+                                <div class="card shadow bg-white m-2 p-0 col-sm-5 col-10 col-md-5 col-lg-3" >
+                                    <img src="https://opt-1422611.ssl.1c-bitrix-cdn.ru/upload/iblock/2bc/2bc9ad13dc0556821386d7e7611d8e22.png?1599457419575814" class="card-img-top pt-3" alt="...">
+                                    <div class="card-body pb-3 pt-3">
+                                    <div class="">
+                                        <h5 class="card-title">{door.title}</h5>
+                                        <h5 class="ms-2">5 599</h5> 
+                                    </div>
+                                    <p class="card-text">Описаниеписаниеписаниеписание писание писание писаниеписание</p>
+                                    <a href="#" class="btn btn-outline-dark ms-2">
+                                        Подробней
+                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+                                           <path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5z"/>
+                                         </svg>
+                                     </a>
+                                    </div>
+                                </div>
+                                <div class="card shadow bg-white m-2 p-0 col-sm-5 col-10 col-md-5 col-lg-3" >
+                                    <img src="https://opt-1422611.ssl.1c-bitrix-cdn.ru/upload/iblock/2bc/2bc9ad13dc0556821386d7e7611d8e22.png?1599457419575814" class="card-img-top pt-3" alt="...">
+                                    <div class="card-body pb-3 pt-3">
+                                    <div class="">
+                                        <h5 class="card-title">{door.title}</h5>
+                                        <h5 class="ms-2">5 599</h5> 
+                                    </div>
+                                    <p class="card-text">Описаниеписаниеписаниеписание писание писание писаниеписание</p>
+                                    <a href="#" class="btn btn-outline-dark ms-2">
+                                        Подробней
+                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+                                           <path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5z"/>
+                                         </svg>
+                                     </a>
+                                    </div>
+                                </div>
+                                <div class="card shadow bg-white m-2 p-0 col-sm-5 col-10 col-md-5 col-lg-3" >
+                                    <img src="https://opt-1422611.ssl.1c-bitrix-cdn.ru/upload/iblock/2bc/2bc9ad13dc0556821386d7e7611d8e22.png?1599457419575814" class="card-img-top pt-3" alt="...">
+                                    <div class="card-body pb-3 pt-3">
+                                    <div class="">
+                                        <h5 class="card-title">{door.title}</h5>
+                                        <h5 class="ms-2">5 599</h5> 
+                                    </div>
+                                    <p class="card-text">Описаниеписаниеписаниеписание писание писание писаниеписание</p>
+                                    <a href="#" class="btn btn-outline-dark ms-2">
+                                        Подробней
+                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+                                           <path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5z"/>
+                                         </svg>
+                                     </a>
+                                    </div>
+                                </div>
+                                <div class="card shadow bg-white m-2 p-0 col-sm-5 col-10 col-md-5 col-lg-3" >
+                                    <img src="https://opt-1422611.ssl.1c-bitrix-cdn.ru/upload/iblock/2bc/2bc9ad13dc0556821386d7e7611d8e22.png?1599457419575814" class="card-img-top pt-3" alt="...">
+                                    <div class="card-body pb-3 pt-3">
+                                    <div class="">
+                                        <h5 class="card-title">{door.title}</h5>
+                                        <h5 class="ms-2">5 599</h5> 
+                                    </div>
+                                    <p class="card-text">Описаниеписаниеписаниеписание писание писание писаниеписание</p>
+                                    <a href="#" class="btn btn-outline-dark ms-2">
+                                        Подробней
+                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+                                           <path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5z"/>
+                                         </svg>
+                                     </a>
+                                    </div>
+                                </div>
+                                <div class="card shadow bg-white m-2 p-0 col-sm-5 col-10 col-md-5 col-lg-3" >
+                                    <img src="https://opt-1422611.ssl.1c-bitrix-cdn.ru/upload/iblock/2bc/2bc9ad13dc0556821386d7e7611d8e22.png?1599457419575814" class="card-img-top pt-3" alt="...">
+                                    <div class="card-body pb-3 pt-3">
+                                    <div class="">
+                                        <h5 class="card-title">{door.title}</h5>
+                                        <h5 class="ms-2">5 599</h5> 
+                                    </div>
+                                    <p class="card-text">Описаниеписаниеписаниеписание писание писание писаниеписание</p>
+                                    <a href="#" class="btn btn-outline-dark ms-2">
+                                        Подробней
+                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+                                           <path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5z"/>
+                                         </svg>
+                                     </a>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                        </div>
+                    </section>
+                </div>
+            
+            </div>
+        </content>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
+</html>
